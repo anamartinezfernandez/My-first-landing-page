@@ -21,7 +21,6 @@
   z-index: 1;
 }
 .container {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,8 +60,22 @@ a {
 }
 
 .main {
-  height: 100vw;
+  height: 100vh;
   background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: var(--text-color);
+  font-size: 30px;
+}
+
 .--- :hover {
 }
