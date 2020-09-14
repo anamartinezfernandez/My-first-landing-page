@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --header-color: #ffffff;
+  --main-color: #4a4a4a;
+  --background-color: #3cdbc0;
+  --text-color: #ffffff;
+  --font-family: "Rubik", sans-serif;
+}
+
+.header {
+  background-color: var(--header-color);
+  /*quitar luego background y margen*/
+  border: solid black 2px;
+  width: 100%;
+  position: fixed; /*duda*/
+  top: 0%;
+  z-index: 1;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue; /*quitar*/
+  padding: 0 50px 0 50px;
+}
+
+.logo {
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: green;
+  border: black solid 2px; /*quitar luego*/
+  margin-bottom: 13px;
+  padding: 0;
+}
+
+.contact,
+.blog {
+  list-style-type: none;
+}
+
+.blog {
+  margin-right: 20px;
+}
+
+a {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.main {
+  height: 100vw;
+  background-color: var(--background-color);
+}
+.--- :hover {
+}
